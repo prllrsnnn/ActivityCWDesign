@@ -1,0 +1,193 @@
+/* global setting */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* global styling */
+html,
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5em;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+p {
+  margin: 10px;
+}
+/* apply some responsive rule */
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+/* navigation */
+#navbar {
+  background: #082032;
+  overflow: auto;
+  color: #fff;
+}
+#navbar a {
+  color: #fff;
+}
+/* removing the bullets in the list */
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+/* float list items in the left to have them horizontally align */
+#navbar ul li {
+  float: left;
+}
+/* convert anchor link to block elements to apply some padding */
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+}
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+/* navigation using pseudo selector */
+#navbar ul li a:hover {
+  background: #334756;
+  color: #ff4c29;
+}
+#navbar ul li a.active {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+#hero {
+  background: url(/image/Workspace\ Laptop\,\ Office\ Accessories\ And\ Copy\ Space.jpg) no-repeat center center/cover;
+  height: 600px;
+}
+#hero .hero-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+
+#hero .hero-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+.primary-text {
+  color: #f0f0cb;
+}
+
+#heero .hero-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+.text-lead {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #334756;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* about section */
+#about {
+  height: 400px;
+}
+#about p {
+  line-height: 2em;
+  font-size: 15px;
+}
+
+#about h2 {
+  color: #ffb740;
+}
+
+#about i {
+  margin-bottom: 10px;
+}
+
+
+#about .content-1,
+#about .content-2,
+#about .content-3 {
+  float: left;
+  width: 33%;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 20px;
+}
+#about a.c-btn {
+  color: #082032;
+}
+#about a.c-btn:hover {
+  color: #ffb740;
+}
+
+
+
+
+/* changing the color the heading and adjusting some spaces from the top edge */
+#testimonials .lead-head {
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+/* section testimonials */
+#testimonials {
+  background: url(/image/ffffffffffffff.jpg) no-repeat center center/cover;
+  height: 600px;
+  overflow: hidden;
+}
+#testimonials .testimonial img {
+  height: 100px;
+  width: 90px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+/* adding a color overlay on the background of about section */
+.row {
+  background: rgba(39, 62, 84, 0.4);
+  overflow: hidden;
+  height: 600px;
+  z-index: 2;
+}
+.bg-primary {
+  background: rgba(255, 255, 255, 0.4);
+}
+/* adjusting the testimonials containers */
+#testimonials .testimonial {
+  padding: 20px;
+  width: 50%;
+  margin-bottom: 50px;
+  border-radius: 1.2em;
+}
+/* footer */
+footer {
+  background: #082032;
+  height: 70px;
+  overflow: auto;
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+}
